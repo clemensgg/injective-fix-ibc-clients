@@ -1,0 +1,43 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.gov.v1beta1.MsgSubmitProposal",
+        "content": {
+          "@type": "/ibc.core.client.v1.ClientUpdateProposal",
+          "title": "IBC light client recovery for Injective",
+          "description": "This proposal will update the expired IBC light client `07-tendermint-127` for `injective-1` with the state of client `07-tendermint-578`",
+          "subject_client_id": "07-tendermint-127",
+          "substitute_client_id": "07-tendermint-578"
+        },
+        "initial_deposit": [
+          {
+            "denom": "ujuno",
+            "amount": "1000000000"
+          }
+        ],
+        "proposer": "juno1705swa2kgn9pvancafzl254f63a3jda996wglz"
+      }
+    ],
+    "memo": "",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [],
+    "fee": {
+      "amount": [
+        {
+          "denom": "ujuno",
+          "amount": "44483"
+        }
+      ],
+      "gas_limit": "444830",
+      "payer": "",
+      "granter": ""
+    },
+    "tip": null
+  },
+  "signatures": []
+}
