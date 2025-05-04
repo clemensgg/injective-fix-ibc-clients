@@ -2,10 +2,77 @@
 
 ## Channel Ends & Client States
 
-| Chain ID     | Channel ID   | Client ID            | Client Status   | Substitute Client    | Connection ID    | Counterparty Chain ID   | Counterparty Channel ID   | Counterparty Client ID   | Counterparty Client Status   | Counterparty Substitute Client   | Counterparty Connection ID   | Counterparty Port ID   | Port ID   |
-|--------------|--------------|----------------------|-----------------|----------------------|------------------|-------------------------|---------------------------|--------------------------|------------------------------|----------------------------------|-----------------------------|------------------------|-----------|
-| injective-1  | channel-259  | 07-tendermint-257    | STATUS_ACTIVE   |                      | connection-250   | dymension_1100-1        | channel-47                | 07-tendermint-41         | STATUS_EXPIRED               | 07-tendermint-73                 | connection-32               | transfer               | transfer  |
-| injective-1  | channel-78   | 07-tendermint-101    | STATUS_EXPIRED  | 07-tendermint-311    | connection-87    | juno-1                  | channel-59                | 07-tendermint-127        | STATUS_EXPIRED               | 07-tendermint-578                | connection-83               | transfer               | transfer  |
-| injective-1  | channel-363  | 07-tendermint-275    | STATUS_EXPIRED  | 07-tendermint-312    | connection-277   | mantra-1                | channel-2                 | 07-tendermint-2          | STATUS_EXPIRED               | 07-tendermint-8                  | connection-2                | transfer               | transfer  |
-| injective-1  | channel-258  | 07-tendermint-256    | STATUS_ACTIVE   |                      | connection-249   | dydx-mainnet-1          | channel-62                | 07-tendermint-26         | STATUS_EXPIRED               | 07-tendermint-34                 | connection-30               | transfer               | transfer  |
-| injective-1  | channel-83   | 07-tendermint-112    | STATUS_ACTIVE   |                      | connection-92    | evmos_9001-2            | channel-10                | 07-tendermint-19         | STATUS_EXPIRED               | 07-tendermint-143                | connection-13               | transfer               | transfer  |
+- **Channel: `channel-259`**
+  - **Chain ID:** `injective-1`
+  - **Client ID:** `07-tendermint-257`
+  - **Client Status:** `STATUS_ACTIVE`
+  - **Substitute Client:** *(none)*
+  - **Connection ID:** `connection-250`
+  - **Counterparty Chain ID:** `dymension_1100-1`
+  - **Counterparty Channel ID:** `channel-47`
+  - **Counterparty Client ID:** `07-tendermint-41`
+  - **Counterparty Client Status:** `STATUS_EXPIRED`
+  - **Counterparty Substitute Client:** `07-tendermint-73`
+  - **Counterparty Connection ID:** `connection-32`
+  - **Counterparty Port ID:** `transfer`
+  - **Port ID:** `transfer`
+
+- **Channel: `channel-78`**
+  - **Chain ID:** `injective-1`
+  - **Client ID:** `07-tendermint-101`
+  - **Client Status:** `STATUS_EXPIRED`
+  - **Substitute Client:** `07-tendermint-311`
+  - **Connection ID:** `connection-87`
+  - **Counterparty Chain ID:** `juno-1`
+  - **Counterparty Channel ID:** `channel-59`
+  - **Counterparty Client ID:** `07-tendermint-127`
+  - **Counterparty Client Status:** `STATUS_EXPIRED`
+  - **Counterparty Substitute Client:** `07-tendermint-578`
+  - **Counterparty Connection ID:** `connection-83`
+  - **Counterparty Port ID:** `transfer`
+  - **Port ID:** `transfer`
+
+- **Channel: `channel-363`**
+  - **Chain ID:** `injective-1`
+  - **Client ID:** `07-tendermint-275`
+  - **Client Status:** `STATUS_EXPIRED`
+  - **Substitute Client:** `07-tendermint-312`
+  - **Connection ID:** `connection-277`
+  - **Counterparty Chain ID:** `mantra-1`
+  - **Counterparty Channel ID:** `channel-2`
+  - **Counterparty Client ID:** `07-tendermint-2`
+  - **Counterparty Client Status:** `STATUS_EXPIRED`
+  - **Counterparty Substitute Client:** `07-tendermint-8`
+  - **Counterparty Connection ID:** `connection-2`
+  - **Counterparty Port ID:** `transfer`
+  - **Port ID:** `transfer`
+
+- **Channel: `channel-258`**
+  - **Chain ID:** `injective-1`
+  - **Client ID:** `07-tendermint-256`
+  - **Client Status:** `STATUS_ACTIVE`
+  - **Substitute Client:** *(none)*
+  - **Connection ID:** `connection-249`
+  - **Counterparty Chain ID:** `dydx-mainnet-1`
+  - **Counterparty Channel ID:** `channel-62`
+  - **Counterparty Client ID:** `07-tendermint-26`
+  - **Counterparty Client Status:** `STATUS_EXPIRED`
+  - **Counterparty Substitute Client:** `07-tendermint-34`
+  - **Counterparty Connection ID:** `connection-30`
+  - **Counterparty Port ID:** `transfer`
+  - **Port ID:** `transfer`
+
+- **Channel: `channel-83`**
+  - **Chain ID:** `injective-1`
+  - **Client ID:** `07-tendermint-112`
+  - **Client Status:** `STATUS_ACTIVE`
+  - **Substitute Client:** *(none)*
+  - **Connection ID:** `connection-92`
+  - **Counterparty Chain ID:** `evmos_9001-2`
+  - **Counterparty Channel ID:** `channel-10`
+  - **Counterparty Client ID:** `07-tendermint-19`
+  - **Counterparty Client Status:** `STATUS_EXPIRED`
+  - **Counterparty Substitute Client:** `07-tendermint-143`
+  - **Counterparty Connection ID:** `connection-13`
+  - **Counterparty Port ID:** `transfer`
+  - **Port ID:** `transfer`
