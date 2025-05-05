@@ -1,5 +1,14 @@
 # Injective IBC Client Recovery
 
+## Proposals
+
+- Injective: https://www.mintscan.io/injective/proposals/525
+- Evmos: https://www.mintscan.io/evmos/proposals/321
+- Dymension: https://www.mintscan.io/dymension/proposals/32
+- Juno: https://ping.pub/juno/gov/365 
+- Dydx: https://www.mintscan.io/dydx/proposals/242
+- Mantrachain: https://www.mintscan.io/mantra/proposals/14 (deposit period)
+
 ## Channel Ends & Client States
 
 - **Channel: `channel-259`**
