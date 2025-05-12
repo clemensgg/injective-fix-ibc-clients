@@ -10,6 +10,6 @@
   "metadata": "",
   "title": "IBC light client update for Injective",
   "summary": "This proposal will update the expired IBC light client `07-tendermint-2` for `injective-1` with the state of client `07-tendermint-8`.",
-  "deposit": "88888000000uom",
+  "deposit": "888880000uom",
   "expedited": false
 }
