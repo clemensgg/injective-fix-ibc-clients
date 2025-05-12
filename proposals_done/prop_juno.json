@@ -8,7 +8,7 @@
     }
   ],
   "metadata": "",
-  "title": "IBC light client update for Injective",
+  "title": "IBC light client update for Injective #2",
   "summary": "This proposal will update the expired IBC light client `07-tendermint-127` for `injective-1` with the state of client `07-tendermint-578`. This proposal is needed due to the failure of [proposal 365](https://ping.pub/juno/gov/365), which used an erroneuos (legacy) proposal type.",
   "deposit": "1000000000ujuno",
   "expedited": false
